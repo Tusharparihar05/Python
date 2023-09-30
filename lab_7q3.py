@@ -1,0 +1,10 @@
+sen=str(input("Enter any sentence: "))
+sen=sen.replace(' ','-')
+print(sen)
+sen=sen.lower()
+sen=sen.replace('-','_')
+print(sen)
+sen=sen.title()
+sen=sen.replace("_",'')
+print(sen)
+
